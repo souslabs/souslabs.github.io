@@ -18,6 +18,8 @@
     <link href='http://fonts.googleapis.com/css?family=Grand+Hotel' rel='stylesheet' type='text/css'>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
 
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -29,17 +31,36 @@
     <link href="css/style.css" rel="stylesheet">
         
     </head>
-    <header>
-        
-    </header>
     
     <body>
         
-        <div class="title">
-                <img class="logo" src="img/sous_logo.png">
+        <div class="top">
+            <div class="title">
+                    <img class="logo" src="img/sous_logo.png">
             </div>
+            <div class="caption">Where food meets technology</div>
+        </div>
+        
+        <div class="middle-container">
+        <button type="button" class="prettybutton" id="opencontact">Contact Us</button>
+        </div>
+        <div class="middle-container" id="contact-container" style="display: none;">
+            <p>email team@souslabs.com or fill out this form:</p>
+            <form class="contact-form" action="//formspree.io/team@souslabs.com" method="post">
+                <div class="row">
+                    <div class="contact-input col-xs-6">
+            <input type="text" class="form-control" name="name" placeholder="name">
+                    </div>
+                    <div class="contact-input col-xs-6">
+            <input type="email" class="form-control" name="_replyto" placeholder="email">
+                    </div>
+                </div>
+                <div class="message-container">
+                    <textarea rows="5" cols="100" class="form-control" name="body" placeholder="message" maxlength="999" style="resize:none"></textarea>
+                </div>
+                <input type="submit" class="prettybutton contact-send" value="Send">
+            </form>
+        </div>
         
     </body>
-    
-     <script src="js/bootstrap.min.js"></script>
 </html>
