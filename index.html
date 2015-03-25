@@ -34,7 +34,7 @@
     
     <body>
         
-        <div class="top">
+        <div id="top">
             <div class="title">
                     <img class="logo" src="img/sous_logo.png">
             </div>
@@ -45,7 +45,7 @@
         <button type="button" class="prettybutton" id="opencontact">Contact Us</button>
         </div>
         <div class="middle-container" id="contact-container" style="display: none;">
-            <p>email team@souslabs.com or fill out this form:</p>
+            <p>email <a href="mailto:team@souslabs.com">team@souslabs.com</a> or fill out this form:</p>
             <form class="contact-form" action="//formspree.io/team@souslabs.com" method="post">
                 <div class="row">
                     <div class="contact-input col-xs-6">
@@ -56,9 +56,10 @@
                     </div>
                 </div>
                 <div class="message-container">
-                    <textarea rows="5" cols="100" class="form-control" name="body" placeholder="message" maxlength="999" style="resize:none"></textarea>
+                    <textarea rows="4" cols="100" class="form-control" name="body" placeholder="message" maxlength="500" style="resize:none"></textarea>
                 </div>
                 <input type="submit" class="prettybutton contact-send" value="Send">
+<!--                <input type="hidden" name="_next" value="//site.io/thanks.html" />-->
             </form>
         </div>
         
