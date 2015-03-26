@@ -64,21 +64,21 @@ html{height:100%;}
 
 /*HEADER STUFF --------------------------------------------------------->*/
 .logo {
-    width: 350px;
+    width: 300px;
     height: auto;
     position: relative;
     left: 5px;
 }
 
-.top{
-    padding-top: 15%;
+#top{
+    padding-top: 150px;
 }
 
 .caption{
     width:100%;
     text-align: center;
     font-family: 'learning_curve_proregular', cursive;
-    font-size: 2.8em;
+    font-size: 2.5em;
     color: #fff;
 }
 
@@ -100,7 +100,7 @@ html{height:100%;}
 }
 
 .contact-form{
-    width: 350px;
+    width: 300px;
     margin: 10px auto;
 }
 
@@ -109,23 +109,33 @@ html{height:100%;}
 }
 
 p {
+    color: #fff;
+    margin-top: 40px;
+}
+
+#contact-container a{
     color: deepskyblue;
 }
 
+.form-control{
+    font-size: 1em;
+}
+
 .prettybutton{
-    background-color: deepskyblue;
-    color: #fff;
+    background-color: #dedede;
+    color: #5a5a5a;
     border-style: none;
     padding: 5px 10px;
-    font-size: 1.2em;
+    font-size: 1em;
 }
 
 .prettybutton:hover{
-    background-color: #00a9c7;
+    background-color: #c9c9c9;
 }
 
 .contact-send{
     margin-top: 30px;
+    margin-bottom: 50px;
 }
     
 /*FOOTER STUFF --------------------------------------------------------->*/
