@@ -64,7 +64,8 @@ html{height:100%;}
 
 /*HEADER STUFF --------------------------------------------------------->*/
 .logo {
-    width: 300px;
+    width: 450px;
+    padding-bottom: 10px;
     height: auto;
     position: relative;
     left: 5px;
